@@ -10,8 +10,8 @@ class CalculatorTest {
     @DisplayName("Vermenigvuldigen twee positieve getallen")
     public void test_twee_positieve_getallen() {
         Calculator calculator = new Calculator();
-        int getal1 = 20;
-        int getal2 = 30;
+        int getal1 = 30;
+        int getal2 = 20;
         int verwachtResultaat = 600;
         int resultaat = calculator.vermenigvuldig(getal1,getal2);
         assertEquals(verwachtResultaat, resultaat, "vermenigvuldiging: twee positieve getallen niet juist");
