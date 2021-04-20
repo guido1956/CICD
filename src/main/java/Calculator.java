@@ -7,4 +7,7 @@ public class Calculator {
         return getal1 -getal2;
     }
     public int optellen(int getal1, int getal2) {return getal1 + getal2;}
+    public int kwadrateren(int getal1) {return getal1*getal1;}
+
+
 }
