@@ -9,7 +9,7 @@ public class Calculator {
     public int optellen(int getal1, int getal2) {return getal1 + getal2;}
     public int delen(int getal1, int getal2) {return getal1 / getal2;}
     public int kwadrateren(int getal1) {return getal1*getal1;}
-    ///
+    public float worteltrekken(int getal1) {return getal1;}
 
 
 }
