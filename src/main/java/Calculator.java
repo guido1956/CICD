@@ -12,4 +12,5 @@ public class Calculator {
     public double worteltrekken(int getal3) {return Math.sqrt(getal3);}
 
 
+
 }
